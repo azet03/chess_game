@@ -1,6 +1,22 @@
 # Chess Game Web Application
 
-A web-based chess game built with Flask and JavaScript.
+
+A simple, browser-based chess game built with Flask and JavaScript. This is an educational project created to demonstrate web development skills and game logic implementation.
+
+## About This Project
+
+- **Purpose**: Educational and recreational
+- **Technology**: Python Flask backend, JavaScript frontend
+- **Functionality**: Two-player chess game in browser
+- **Author**: azet03
+- **License**: MIT
+
+## Features
+- Interactive chess board
+- Legal move validation
+- Turn-based gameplay
+- Visual move indicators
+- Responsive design
 
 ## Local Development
 
@@ -16,39 +32,30 @@ A web-based chess game built with Flask and JavaScript.
 
 3. Open your browser and visit: `http://localhost:5000`
 
-## Deployment Options
+## Deployment
 
-### Heroku Deployment
-1. Create a Heroku account at https://heroku.com
-2. Install Heroku CLI
-3. Login to Heroku:
-   ```
-   heroku login
-   ```
-4. Create a new Heroku app:
-   ```
-   heroku create your-chess-app-name
-   ```
-5. Deploy:
-   ```
-   git push heroku main
-   ```
+This project can be deployed on various cloud platforms. Make sure to follow the platform's terms of service and usage guidelines.
 
-### Railway Deployment
-1. Create an account at https://railway.app
-2. Create a new project
-3. Connect your GitHub repository
-4. Railway will automatically detect the Python project and deploy it
+## License
 
-### Render Deployment
-1. Create an account at https://render.com
-2. Create a new Web Service
-3. Connect your GitHub repository
-4. Render will automatically detect the Python project and deploy it
+MIT License
 
-## Features
-- Interactive chess board
-- Legal move validation
-- Turn-based gameplay
-- Visual move indicators
-- Responsive design
+Copyright (c) 2024 azet03
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
