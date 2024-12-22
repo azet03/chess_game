@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ali Sejati***Chess Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="chessboard" width="800" height="800"></canvas>
+        <div class="game-info">
+            <div id="turn-display">Current Turn: White</div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/chess.js') }}"></script>
+</body>
+</html>
